@@ -3,7 +3,6 @@ import styles from './styles.css'
 import Logo from './Logo'
 import Menu from './Menu'
 import Sections from './Sections'
-import {Link} from 'react-router-dom'
 
 export default class Component extends React.Component {
   static propTypes = {}
@@ -17,7 +16,10 @@ export default class Component extends React.Component {
         <div className={styles.sections}>
           <Sections />
         </div>
-        <a className={styles.referrals} to="/settings/referrals">
+        <a
+          className={styles.referrals}
+          to="https://github.com/nicolaslopezj/waveshosting"
+          target="blank">
           Open Source
         </a>
         <div className={styles.menu}>

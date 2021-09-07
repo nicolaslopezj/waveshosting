@@ -30,6 +30,12 @@ export default class Footer extends React.Component {
                 rel="noopener noreferrer">
                 Getting started
               </a>
+              <a
+                href="https://github.com/nicolaslopezj/waveshosting"
+                target="_blank"
+                rel="noopener noreferrer">
+                Open Source Code
+              </a>
               {/* <a target="_blank" rel="noopener noreferrer">
                 Terms and conditions
               </a> */}

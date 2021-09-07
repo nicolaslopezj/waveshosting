@@ -2,4 +2,4 @@
 
 waveshosting.com
 
-Created by @nicolaslopezj
+Created by [@nicolaslopezj](https://github.com/nicolaslopezj)

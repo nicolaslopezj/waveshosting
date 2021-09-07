@@ -1,0 +1,13 @@
+.react-datepicker {
+  box-shadow: 0 4px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+  border: none;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.react-datepicker__time-list {
+  padding: 0;
+}
+
+.react-datepicker__triangle::before {
+  border-top-color: transparent !important;
+}

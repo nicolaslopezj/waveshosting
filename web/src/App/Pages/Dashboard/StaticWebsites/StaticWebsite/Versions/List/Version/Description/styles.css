@@ -1,0 +1,36 @@
+:local(.container) {
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 1;
+  max-width: 600px;
+}
+
+:local(.labelContainer) {
+  padding-bottom: 1px;
+  padding-left: 1px;
+  cursor: pointer;
+}
+
+:local(.label) {
+}
+
+:local(.addLabel) {
+  composes: label;
+  color: #999;
+  font-style: italic;
+}
+
+:local(.input) {
+  display: block;
+  width: 100%;
+  font-family: inherit;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #eee;
+  outline: none;
+  transition: all 0.1s ease;
+}
+
+:local(.input):focus {
+  border-bottom: 1px solid #0069ff;
+}

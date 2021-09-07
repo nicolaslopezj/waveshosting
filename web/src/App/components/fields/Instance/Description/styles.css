@@ -1,0 +1,18 @@
+:local(.container) {
+}
+
+:local(.info) {
+  background: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+:local(.value) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+:local(.label) {
+  font-size: 14px;
+}

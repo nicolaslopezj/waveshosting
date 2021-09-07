@@ -1,0 +1,22 @@
+:local(.container) {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+:local(.title) {
+  font-size: 30px;
+  padding: 20px 0;
+  font-weight: bold;
+  background: #fff;
+}
+
+:local(.message) {
+  padding: 20px 0;
+  background: #eee;
+  flex: 1;
+}

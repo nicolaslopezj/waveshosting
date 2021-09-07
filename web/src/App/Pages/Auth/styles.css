@@ -1,0 +1,27 @@
+:local(.container) {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+:local(.content) {
+  composes: shadow from global;
+  width: 400px;
+  padding: 40px 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:local(.contentInner) {
+  padding-left: env(safe-area-inset-left);
+}
+
+:local(.photo) {
+  flex: 1;
+  background-color: #eee;
+  background-image: url('https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ef79a01f0a12450049b7d20cd10f93c&auto=format&fit=crop&w=2767&q=80');
+  background-size: cover;
+  background-position: center;
+}

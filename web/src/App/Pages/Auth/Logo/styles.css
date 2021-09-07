@@ -1,0 +1,9 @@
+:local(.container) {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+:local(.logo) {
+  max-width: 80%;
+  height: 60px;
+}

@@ -1,0 +1,6 @@
+:local(.container) {
+  composes: button from global;
+  composes: buttonShadow from global;
+  composes: content from global;
+  display: block;
+}

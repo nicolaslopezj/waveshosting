@@ -1,0 +1,49 @@
+:local(.container) {
+}
+
+:local(.twoFactorActivatedText) {
+  position: relative;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+:local(.twoFactorActivatedIcon) {
+  position: relative;
+  top: 7px;
+}
+
+:local(.yourAccountIsSecure) {
+  margin-left: 38px;
+  font-size: 14px;
+}
+
+:local(.googleIcon) {
+  height: 66px;
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+:local(.appStoreIcon) {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+:local(.instructionStep) {
+  font-size: 18px;
+}
+
+:local(.addManually) {
+  color: #777;
+  font-size: 13px;
+}
+
+:local(.addManuallyPre) {
+  font-size: 13px;
+}
+
+:local(.errorMessage) {
+  color: red;
+  margin-top: 15px;
+}

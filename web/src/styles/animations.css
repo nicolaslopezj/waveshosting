@@ -1,0 +1,11 @@
+@keyframes loadingPulse {
+  from {
+    background-color: #cdcdcd;
+  }
+  50% {
+    background-color: #e2e2e2;
+  }
+  to {
+    background-color: #cdcdcd;
+  }
+}

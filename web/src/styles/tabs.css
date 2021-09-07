@@ -1,0 +1,23 @@
+.os-tabs-container {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+.os-tabs-item a {
+  color: #111;
+}
+
+.os-tabs-item.os-tabs-itemActive a {
+  color: #0f2ff1;
+  border-color: #0f2ff1;
+}
+
+.os-tabs-item {
+  font-weight: bold;
+}
+
+@supports (padding: max(0px)) {
+  .os-tabs-inner {
+    padding-left: calc(20px + env(safe-area-inset-left));
+    padding-right: calc(20px + env(safe-area-inset-right));
+  }
+}

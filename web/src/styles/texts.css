@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+input {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+code {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 25px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0f2ff1;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}

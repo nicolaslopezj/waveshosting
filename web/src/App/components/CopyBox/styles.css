@@ -1,0 +1,26 @@
+:local(.container) {
+  margin: 10px 0;
+}
+
+:local(.box) {
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+:local(.boxLabel) {
+  flex: 1;
+  padding-right: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+:local(.container) .orion_button {
+  height: 32px;
+}

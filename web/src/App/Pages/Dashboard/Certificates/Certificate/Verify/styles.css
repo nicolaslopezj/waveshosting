@@ -1,0 +1,16 @@
+:local(.container) {
+}
+
+:local(.domains) {
+  margin-top: 10px;
+}
+
+:local(.domain) {
+  display: inline-block;
+  background-color: #eee;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  border-radius: 5px;
+}

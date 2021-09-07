@@ -1,0 +1,18 @@
+:local(.container) {
+}
+
+:local(.help) {
+  display: flex;
+  align-items: center;
+  composes: buttonShadow from global;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: #111;
+  font-weight: bold;
+  background: #fdfdfd;
+}
+
+:local(.help) svg {
+  margin-right: 8px;
+}

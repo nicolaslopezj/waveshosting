@@ -1,0 +1,17 @@
+:local(.container) {
+  height: 26px;
+  display: flex;
+  cursor: pointer;
+  composes: button from global;
+  color: #333;
+}
+
+:local(.icon) {
+  padding-right: 10px;
+  position: relative;
+  top: -1px;
+}
+
+:local(.text) {
+  font-family: 'Titillium Web', sans-serif;
+}

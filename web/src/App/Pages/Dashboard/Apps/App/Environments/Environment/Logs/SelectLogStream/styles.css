@@ -1,0 +1,21 @@
+:local(.container) {
+}
+
+:local(.stream) {
+  display: block;
+  composes: button from global;
+  composes: content from global;
+  composes: buttonShadow from global;
+  padding: 10px !important;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+:local(.loading) {
+  composes: smallShadow from global;
+  composes: content from global;
+  composes: loadingGlow from global;
+  height: 44px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}

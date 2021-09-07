@@ -1,0 +1,6 @@
+.orion
+node_modules
+yarn-error.log
+start.sh
+build.sh
+start-prod.sh

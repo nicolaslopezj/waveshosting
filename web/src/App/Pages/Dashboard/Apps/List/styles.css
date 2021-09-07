@@ -1,0 +1,54 @@
+:local(.container) {
+}
+
+:local(.welcomeTitle) {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+:local(.welcomeText) {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+:local(.create) {
+  float: right;
+  margin-top: 10px;
+}
+
+:local(.loadingApp) {
+  composes: smallShadow from global;
+  composes: content from global;
+  composes: loadingGlow from global;
+  height: 98px;
+  box-sizing: border-box;
+}
+
+:local(.noAppsText) {
+  font-size: 20px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+:local(.content) {
+  margin-top: -20px;
+}
+
+:local(.credential) {
+  font-size: 20px;
+  color: #777;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+:local(.credentialLoading) {
+  composes: loadingGlow from global;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #eee;
+  height: 31px;
+  width: 100px;
+  box-sizing: border-box;
+}

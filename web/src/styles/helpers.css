@@ -1,0 +1,15 @@
+.flex-cols {
+  display: flex;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}

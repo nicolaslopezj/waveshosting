@@ -1,0 +1,14 @@
+:local(.container) {
+}
+
+:local(.optionCost) {
+  background-color: #eee;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #111;
+}
+
+.orion-select__single-value :local(.optionCost) {
+  display: none;
+}

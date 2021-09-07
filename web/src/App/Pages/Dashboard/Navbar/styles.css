@@ -1,0 +1,49 @@
+:local(.container) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: #111;
+  color: #fff;
+  composes: shadow from global;
+}
+
+:local(.container) > div {
+  height: 100%;
+}
+
+:local(.flex) {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+:local(.logo) {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+:local(.sections) {
+  flex: 1;
+}
+
+:local(.referrals) {
+  background-color: #0f2ff1;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0 3px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 15px;
+  composes: buttonShadow from global;
+}
+
+@media (max-width: 450px) {
+  :local(.referrals) {
+    display: none;
+  }
+}

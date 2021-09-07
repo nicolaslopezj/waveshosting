@@ -1,0 +1,14 @@
+:local(.container) {
+
+}
+
+:local(.divider) {
+  height: 1px;
+  background: #eee;
+  margin: 20px 0;
+}
+
+:local(.error) {
+  color: red;
+  margin-bottom: 24px;
+}

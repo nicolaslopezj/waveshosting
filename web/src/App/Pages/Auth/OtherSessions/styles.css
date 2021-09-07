@@ -1,0 +1,25 @@
+:local(.container) {
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+:local(.session) {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+:local(.session):hover {
+  background-color: #eee;
+}
+
+:local(.name) {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: -3px;
+}
+
+:local(.email) {
+  font-size: 13px;
+}

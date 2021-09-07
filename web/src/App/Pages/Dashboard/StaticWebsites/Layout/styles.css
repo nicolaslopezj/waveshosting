@@ -1,0 +1,7 @@
+:local(.container) {
+}
+
+:local(.tabs) {
+  padding-bottom: 10px;
+  margin-top: 24px;
+}

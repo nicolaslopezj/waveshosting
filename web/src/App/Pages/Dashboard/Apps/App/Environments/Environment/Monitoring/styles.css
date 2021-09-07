@@ -1,0 +1,19 @@
+:local(.container) {
+}
+
+:local(.header) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+:local(.title) {
+  font-size: 24px;
+  flex: 1;
+  font-weight: bold;
+}
+
+:local(.select) {
+  composes: smallSelect from global;
+  width: 160px;
+}

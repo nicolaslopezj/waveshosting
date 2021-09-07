@@ -1,0 +1,118 @@
+.paginated-head {
+  padding: 20px;
+}
+
+.paginated-error {
+  background-color: #fff;
+}
+
+.paginated-error-icon svg {
+  height: 50px;
+  width: 50px;
+}
+
+.paginated-head-container {
+  margin-bottom: 0;
+}
+
+.paginated-head-center {
+  min-height: 0px;
+}
+
+.paginated-head-right {
+  height: 30px;
+}
+
+.paginated-pagination {
+  margin: 0;
+  padding: 20px;
+}
+
+.paginated-table {
+  padding: 0;
+}
+
+.paginated-table table {
+  border-top: 1px solid #999;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.paginated-table thead {
+  background-color: #f1f1f1;
+  text-align: left;
+}
+
+.paginated-table tr {
+  border-bottom: 1px solid #999;
+}
+
+.paginated-table thead tr th {
+  border-bottom: 1px solid #999;
+  position: relative;
+  padding: 9px 10px;
+  line-height: 22px;
+  vertical-align: top;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #32325d;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.paginated-table tbody tr:hover td {
+  color: #111;
+}
+
+.paginated-table td {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  padding: 9px 10px;
+  color: #555;
+  line-height: 22px;
+  vertical-align: top;
+}
+
+.paginated-pagination-pages {
+  font-size: 14px;
+}
+
+.paginated-pagination-limit {
+  font-size: 14px;
+}
+
+.paginated-pagination-page-input-container {
+  top: 0;
+}
+
+.paginated-pagination-page-icon,
+.paginated-pagination-page-icon-disabled {
+  top: 0px;
+}
+
+.paginated-pagination-page-icon {
+  color: #525f7f;
+}
+
+.paginated-pagination-page-icon svg,
+.paginated-pagination-page-icon-disabled svg {
+  height: 22px;
+  width: 22px;
+}
+
+.paginated-pagination-page-input {
+  background-color: #f6f9fc;
+  border-radius: 4px;
+  height: 20px;
+  width: 32px;
+  font-size: 12px;
+}
+
+.paginated-text-field-input {
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #e6ebf1;
+  border-radius: 4px;
+  padding: 4px 7px;
+}

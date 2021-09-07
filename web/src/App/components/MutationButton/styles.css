@@ -1,0 +1,7 @@
+:local(.container) {
+}
+
+:local(.error) {
+  margin-top: 15px;
+  color: red;
+}

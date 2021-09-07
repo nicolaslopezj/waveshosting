@@ -1,0 +1,10 @@
+:local(.container) {
+}
+
+:local(.value) {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+:local(.label) {
+}

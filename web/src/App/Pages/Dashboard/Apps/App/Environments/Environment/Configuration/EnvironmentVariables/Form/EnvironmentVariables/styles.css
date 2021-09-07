@@ -1,0 +1,29 @@
+:local(.container) {
+}
+
+:local(.row) {
+  display: flex;
+  margin: 0 -10px;
+}
+
+:local(.row) > div {
+  margin: 0 10px;
+}
+
+:local(.input) {
+  flex: 1;
+}
+
+:local(.delete) {
+  width: 24px;
+  height: 40px;
+  color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:local(.basicTitle) {
+  composes: label from global;
+  font-weight: bold;
+}

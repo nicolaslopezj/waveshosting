@@ -1,0 +1,30 @@
+:local(.container) {
+}
+
+:local(.environment) {
+  composes: button from global;
+  composes: buttonShadow from global;
+  composes: content from global;
+  display: flex;
+  align-items: center;
+}
+
+:local(.loadingEnvironment) {
+  composes: smallShadow from global;
+  composes: content from global;
+  composes: loadingGlow from global;
+  height: 67px;
+  box-sizing: border-box;
+}
+
+:local(.name) {
+  font-size: 18px;
+  font-weight: bold;
+  flex: 1;
+}
+
+:local(.health) {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}

@@ -1,0 +1,45 @@
+:local(.event) {
+  display: flex;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+:local(.date) {
+  color: #666;
+}
+
+:local(.message) {
+  flex: 1;
+  padding: 0 15px;
+}
+
+:local(.details) {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #eee;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+:local(.icon) {
+  position: relative;
+  left: -3px;
+  top: -1px;
+  transition: all 0.2s;
+}
+
+:local(.icon) svg {
+  font-size: 20px;
+}
+
+:local(.right) {
+  composes: icon;
+}
+:local(.down) {
+  composes: icon;
+  transform: rotate(90deg);
+}

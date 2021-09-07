@@ -1,0 +1,11 @@
+:local(.container) {
+  margin: 40px 0;
+}
+
+:local(.title) {
+  font-size: 50px;
+}
+
+:local(.status) {
+  font-weight: bold;
+}

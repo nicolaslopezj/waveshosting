@@ -1,0 +1,9 @@
+:local(.container) {
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+:local(.container) a {
+  font-size: 16px;
+}

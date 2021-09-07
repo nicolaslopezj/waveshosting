@@ -1,0 +1,58 @@
+:local(.container) {
+  composes: smallShadow from global;
+  composes: content from global;
+  display: flex;
+  align-items: center;
+}
+
+:local(.left) {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:local(.right) {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:local(.labelAndDescription) {
+  display: flex;
+  align-items: center;
+}
+
+:local(.label) {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+:local(.date) {
+  color: #999;
+}
+
+:local(.deployedIn) {
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 0 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+:local(.noDeployment) {
+  composes: deployedIn;
+  font-weight: normal;
+  color: #999;
+}
+:local(.actions) {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+:local(.deleteVersion) {
+  color: #999;
+  margin-right: 5px;
+}

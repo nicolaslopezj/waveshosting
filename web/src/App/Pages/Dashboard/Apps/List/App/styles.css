@@ -1,0 +1,26 @@
+:local(.container) {
+  composes: button from global;
+  composes: buttonShadow from global;
+  composes: content from global;
+  display: block;
+}
+
+:local(.name) {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+:local(.region) {
+  float: right;
+  color: #868686;
+}
+
+:local(.platform) {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 0px 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}

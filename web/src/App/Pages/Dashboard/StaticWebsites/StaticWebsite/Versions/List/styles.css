@@ -1,0 +1,21 @@
+:local(.container) {
+}
+
+:local(.name) {
+  height: 30px;
+}
+
+:local(.createdAt) {
+  height: 30px;
+}
+
+:local(.environments) {
+}
+
+:local(.loadingVersion) {
+  composes: smallShadow from global;
+  composes: content from global;
+  composes: loadingGlow from global;
+  height: 95px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,31 @@
+:local(.container) {
+  composes: button from global;
+  composes: buttonShadow from global;
+  composes: content from global;
+  flex: 1;
+}
+
+:local(.head) {
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+:local(.domains) {
+}
+
+:local(.domain) {
+  display: inline-block;
+  background-color: #eee;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+:local(.status) {
+  font-weight: bold;
+  margin-left: 10px;
+}

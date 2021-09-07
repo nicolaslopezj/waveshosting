@@ -1,0 +1,49 @@
+:local(.container) {
+}
+
+:local(.welcomeTitle) {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+:local(.welcomeText) {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+:local(.cliInstructions) {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  composes: content from global;
+  font-family: 'Ubuntu Mono', monospace;
+  display: inline-block;
+  padding: 20px 40px;
+}
+
+:local(.cliInstructions) > div::before {
+  content: '> ';
+}
+
+:local(.help) {
+  display: inline-flex;
+  align-items: center;
+  composes: buttonShadow from global;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  color: #111;
+  font-weight: bold;
+  background: #fdfdfd;
+}
+
+:local(.help) svg {
+  margin-right: 8px;
+}
+
+:local(.moreHelp) {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #333;
+}

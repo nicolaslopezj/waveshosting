@@ -1,0 +1,23 @@
+:local(.container) {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+:local(.title) {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+:local(.right) {
+  text-align: right;
+}
+
+:local(.right) a {
+  color: #f43f4f;
+}
+
+:local(.lastCall) {
+  float: right;
+  color: #999;
+}

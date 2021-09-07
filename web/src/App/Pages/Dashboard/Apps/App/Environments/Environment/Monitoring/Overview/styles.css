@@ -1,0 +1,6 @@
+:local(.loadingPoint) {
+  composes: loadingGlow from global;
+  height: 70px;
+  background: #eee;
+  border-radius: 5px;
+}

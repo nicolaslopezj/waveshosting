@@ -1,0 +1,37 @@
+:local(.container) {
+  background: #111;
+  color: #fff;
+  padding: 50px 0;
+}
+
+:local(.content) {
+  padding: 0px 20px;
+  margin: 0px auto;
+  max-width: 1000px;
+}
+
+:local(.logo) {
+  text-align: center;
+  margin-top: 50px;
+}
+
+:local(.logo) img {
+  height: 40px;
+  opacity: 0.5;
+}
+
+:local(.container) .col-xs-12 {
+  margin-bottom: 30px;
+}
+
+:local(.container) h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+:local(.container) a {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+}

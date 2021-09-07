@@ -1,0 +1,60 @@
+:local(.container) {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+:local(.icon) {
+  cursor: pointer;
+}
+
+:local(.menuText) {
+  composes: button from global;
+  font-weight: bold;
+}
+
+:local(.menuText) > * {
+  margin-left: 5px;
+}
+
+:local(.menu) {
+  z-index: -1;
+  position: absolute;
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  overflow: hidden;
+  left: -50px;
+  top: 46px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+}
+
+:local(.menu) a {
+  display: inline-block;
+  padding: 15px;
+  flex: 1;
+  cursor: pointer;
+}
+
+:local(.menu) a:hover {
+  background-color: #f2f0f0;
+}
+
+:local(.menuLink) {
+  font-size: 15px;
+  font-weight: bold;
+  color: #111;
+}
+
+:local(.menuLink) span {
+  position: relative;
+  top: 1px;
+  margin-left: 15px;
+}
+
+:local(.divider) {
+  height: 1px;
+  background-color: #eee;
+}

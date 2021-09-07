@@ -1,0 +1,14 @@
+:local(.container) {
+}
+
+:local(.loading) {
+  composes: smallShadow from global;
+  composes: content from global;
+  composes: loadingGlow from global;
+  height: 67px;
+  box-sizing: border-box;
+}
+
+:local(.certCol) {
+  display: flex;
+}

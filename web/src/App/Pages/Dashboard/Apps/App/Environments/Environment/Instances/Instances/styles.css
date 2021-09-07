@@ -1,0 +1,10 @@
+:local(.container) {
+}
+
+:local(.loading) {
+  composes: smallShadow from global;
+  composes: content from global;
+  composes: loadingGlow from global;
+  height: 142px;
+  box-sizing: border-box;
+}

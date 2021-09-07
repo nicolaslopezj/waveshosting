@@ -1,0 +1,46 @@
+{
+  "name": "orionjs-basic-example",
+  "version": "0.0.1",
+  "description": "A basic example for orionjs",
+  "main": "index.js",
+  "author": "nicolaslopezj",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "reinstall": "rm -rf node_modules/ && yarn"
+  },
+  "dependencies": {
+    "@orion-js/app": "^2.1.2",
+    "@orion-js/auth": "^2.1.2",
+    "@orion-js/graphql": "^2.1.2",
+    "@orion-js/jobs": "^2.1.2",
+    "@orion-js/mailing": "^2.1.2",
+    "@orion-js/schema": "^2.1.0",
+    "adm-zip": "^0.4.13",
+    "aws-sdk": "^2.983.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "intercom-client": "^2.11.0",
+    "juice": "^5.2.0",
+    "luxon": "^1.16.0",
+    "mime": "^2.4.4",
+    "moment": "^2.24.0",
+    "parse-domain": "^2.3.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@sentry/cli": "^1.62.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-orionsoft": "^2.1.2",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-react-native": "^3.8.1"
+  }
+}

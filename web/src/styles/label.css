@@ -1,0 +1,22 @@
+.label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.label:first-child {
+  margin-top: 0;
+}
+
+.autoform-field:first-child > .label {
+  margin-top: 0;
+}
+
+.autoform-field:not(:first-child) > .label {
+  margin-top: 20px;
+}
+
+.description {
+  margin-top: 0px;
+  font-size: 14px;
+  color: #999999;
+}

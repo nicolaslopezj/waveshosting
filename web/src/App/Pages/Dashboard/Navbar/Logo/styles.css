@@ -1,0 +1,12 @@
+:local(.container) {
+  display: flex;
+  align-items: center;
+}
+
+:local(.container) a {
+  height: 30px;
+}
+
+:local(.container) img {
+  height: 100%;
+}

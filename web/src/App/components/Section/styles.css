@@ -1,0 +1,28 @@
+:local(.container) {
+  border-top: 1px solid #eee;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+:local(.containerNoBorder) {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+:local(.title) {
+  margin-bottom: 10px;
+}
+
+:local(.description) {
+  color: #7d7d7d;
+}
+
+:local(.childrenNoBorder) {
+  margin-top: 40px;
+}
+
+:local(.children) {
+  composes: childrenNoBorder;
+  composes: content from global;
+}

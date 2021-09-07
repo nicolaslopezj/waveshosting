@@ -1,0 +1,20 @@
+:local(.container) {
+  margin-bottom: 10px;
+}
+
+:local(.domain) {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+:local(.input) {
+  flex: 1;
+  height: 46px;
+}
+
+:local(.icon) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}

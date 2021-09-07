@@ -1,0 +1,34 @@
+:local(.container) {
+  max-height: 400px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+:local(.loadingLine) {
+  display: flex;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+:local(.loadingDate) {
+  composes: loadingGlow from global;
+  background-color: #eee;
+  border-radius: 4px;
+  height: 24px;
+  width: 172px;
+  margin-right: 10px;
+}
+
+:local(.loadingMessage) {
+  composes: loadingDate;
+  margin-left: 5px;
+  flex: 1;
+}
+
+:local(.end) {
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 13px;
+}

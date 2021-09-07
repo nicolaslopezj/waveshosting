@@ -1,0 +1,5 @@
+:local(.data) {
+  position: relative;
+  margin-top: 20px;
+  composes: content from global;
+}

@@ -1,0 +1,17 @@
+:local(.container) {
+}
+
+:local(.data) {
+  background: #eee;
+  border-radius: 5px;
+  display: flex;
+  padding: 20px;
+}
+
+:local(.left) {
+  flex: 1;
+}
+
+:local(.right) {
+  font-weight: bold;
+}

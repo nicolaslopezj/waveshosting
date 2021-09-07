@@ -1,0 +1,21 @@
+:local(.container) {
+}
+
+:local(.header) {
+  padding-bottom: 10px;
+}
+
+:local(.updating) {
+  background: #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+:local(.launchingTitle) {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}

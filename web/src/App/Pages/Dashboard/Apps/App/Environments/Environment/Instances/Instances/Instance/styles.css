@@ -1,0 +1,51 @@
+:local(.container) {
+  composes: smallShadow from global;
+  composes: content from global;
+}
+
+:local(.header) {
+  display: flex;
+}
+
+:local(.headerLeft) {
+  flex: 1;
+}
+
+:local(.instanceId) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+:local(.instanceType) {
+  font-size: 14px;
+  color: #999;
+}
+
+:local(.cause) {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 14px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+:local(.health) {
+  margin-top: 5px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+:local(.stats) {
+  margin-top: 10px;
+  display: flex;
+}
+
+:local(.statsItem) {
+  flex: 1;
+}
+
+:local(.statsTitle) {
+  font-weight: bold;
+  font-size: 13px;
+}

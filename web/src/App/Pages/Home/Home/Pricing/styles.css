@@ -1,0 +1,12 @@
+:local(.container) {
+  margin: 200px 0;
+  text-align: center;
+}
+
+:local(.container) p {
+  font-size: 20px;
+}
+
+:local(.container) .col-xs-12 {
+  padding: 0 40px;
+}

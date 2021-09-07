@@ -1,0 +1,51 @@
+:local(.container) {
+  background: #111;
+  color: #fff;
+  background-image: url('https://images.unsplash.com/photo-1494147086697-9cac90849503?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a37d6ee4273807e88925b1f309460f4e&auto=format&fit=crop&w=3289&q=80');
+  background-position: center;
+  background-size: cover;
+}
+
+:local(.content) {
+  position: relative;
+  padding: 0px 20px;
+  margin: 0px auto;
+  max-width: 1000px;
+}
+
+:local(.navbar) {
+  padding: 0px 20px;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+}
+
+:local(.main) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(70vh - 184px);
+  min-height: 300px;
+  padding-top: 104px;
+  padding-bottom: 80px;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+:local(.title) {
+  font-size: 40px;
+}
+
+:local(.text) {
+  font-size: 30px;
+}
+
+:local(.buttons) {
+  margin-top: 30px;
+}
+
+:local(.freeText) {
+  margin-top: 10px;
+  font-size: 14px;
+}

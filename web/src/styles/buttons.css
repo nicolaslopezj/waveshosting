@@ -1,0 +1,42 @@
+.button {
+  user-select: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.7;
+}
+
+.button.disabled {
+  opacity: 1 !important;
+}
+
+.orion_button,
+.orion_button:active,
+.orion_button:hover {
+  user-select: none;
+  border-radius: 5px;
+  text-transform: none;
+}
+
+.orion_button,
+.orion_button:active,
+.orion_button:hover {
+  background-color: #fcfcfc;
+}
+
+.orion_danger,
+.orion_danger:active,
+.orion_danger:hover {
+  background-color: #f44336;
+}
+
+.orion_primary,
+.orion_primary:active,
+.orion_primary:hover {
+  background-color: #0f2ff1;
+}

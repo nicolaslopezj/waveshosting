@@ -1,0 +1,19 @@
+:local(.container) {
+}
+
+:local(.content) {
+  padding: 0px 20px;
+  margin: 0px auto;
+  max-width: 1000px;
+}
+
+:local(.contentContainer) {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+:local(.content) h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}

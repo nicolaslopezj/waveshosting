@@ -1,5 +1,5 @@
 # Waves Hosting
 
-waveshosting.com
+[waveshosting.com](https://waveshosting.com)
 
 Created by [@nicolaslopezj](https://github.com/nicolaslopezj)

@@ -18,6 +18,7 @@
     "inquirer": "^6.0.0",
     "jssha": "^2.3.1",
     "lodash": "^4.17.5",
+    "node-fetch": "2",
     "ora": "^3.0.0",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",

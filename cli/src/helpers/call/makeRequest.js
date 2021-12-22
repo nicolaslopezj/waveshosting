@@ -1,13 +1,16 @@
 import url from './url'
-import rp from 'request-promise'
+import fetch from 'node-fetch'
 
-export default async function({headers, body}) {
-  const response = await rp({
-    url,
-    method: 'POST',
-    headers,
-    body
+export default async function ({headers, body}) {
+  const response = await fetch(url, {
+    headers: {
+      'content-type': 'application/json',
+      ...headers
+    },
+    body: body,
+    method: 'POST'
   })
 
-  return JSON.parse(response)
+  const json = await response.json()
+  return json
 }

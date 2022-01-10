@@ -5,7 +5,7 @@ import isLoggedIn from '../helpers/call/isLoggedIn'
 import login from '../auth/login'
 import uploadStaticWebsite from './uploadStaticWebsite'
 import {startSpinner, stopSpinner} from '../helpers/spinner'
-import colors from 'colors'
+import chalk from 'chalk'
 import selectStaticWebsiteId from './selectStaticWebsiteId'
 import selectEnvs from './selectEnvs'
 import getBuildDir from '../deploy/getBuildDir'
@@ -34,7 +34,7 @@ export default async function (staticWebsiteId, {env, build: customBuildScript, 
   startSpinner('Compressing build...')
   const path = await compressDirectory(buildArchivePath, `${buildDir}/archive.zip`)
   stopSpinner()
-  console.log(colors.bold('Build prepared'))
+  console.log(chalk.bold('Build prepared'))
 
   const version = await uploadStaticWebsite({path, staticWebsiteId, description})
 

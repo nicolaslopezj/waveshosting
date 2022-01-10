@@ -1,8 +1,8 @@
 import call from '../helpers/call'
 import {startSpinner, stopSpinner} from '../helpers/spinner'
-import colors from 'colors'
+import chalk from 'chalk'
 
-export default async function({appId, version, env}) {
+export default async function ({appId, version, env}) {
   const environment = `${appId}-${env}`
   startSpinner('Starting deployment...')
 
@@ -14,7 +14,7 @@ export default async function({appId, version, env}) {
   const {result} = await call(mutation, {appId, version, environment})
 
   stopSpinner()
-  console.log(colors.bold(`Deployment of version ${version} in ${appId}#${env} started correctly`))
+  console.log(chalk.bold(`Deployment of version ${version} in ${appId}#${env} started correctly`))
 
   return result
 }

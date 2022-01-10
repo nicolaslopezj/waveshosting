@@ -1,10 +1,10 @@
 import execute from '../../helpers/execute'
 import getScriptToRun from './getScriptToRun'
-import colors from 'colors'
+import chalk from 'chalk'
 import copyExtensions from './copyExtensions'
 
-export default async function({build, buildDir}) {
-  console.log(colors.bold('Building app...'))
+export default async function ({build, buildDir}) {
+  console.log(chalk.bold('Building app...'))
 
   const appDir = process.cwd()
   const script = await getScriptToRun({build, buildDir})
@@ -22,7 +22,7 @@ export default async function({build, buildDir}) {
 
   await copyExtensions({buildDir, appDir})
 
-  console.log(colors.bold('App built'))
+  console.log(chalk.bold('App built'))
 
   return `${buildDir}/build`
 }

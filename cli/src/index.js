@@ -5,22 +5,22 @@ import deploy from './deploy'
 import login from './auth/login'
 import logout from './auth/logout'
 import whoami from './auth/whoami'
-import colors from 'colors/safe'
+import chalk from 'chalk'
 import checkVersion from './helpers/checkVersion'
 import {stopSpinner} from './helpers/spinner'
 import upload from './upload'
 
-const run = function(action) {
-  return async function(...args) {
+const run = function (action) {
+  return async function (...args) {
     try {
       await checkVersion()
       await action(...args)
     } catch (error) {
       stopSpinner(true)
       if (process.env.WAVES_ENV === 'local') {
-        console.error(colors.red(error.stack))
+        console.error(chalk.red(error.stack))
       } else {
-        console.error(colors.red('Error: ' + error.message))
+        console.error(chalk.red('Error: ' + error.message))
       }
     }
   }
@@ -48,20 +48,11 @@ program
   .option('--description [description]', 'Specify a description for this version')
   .action(run(upload))
 
-program
-  .command('login')
-  .description('Login with your waves account')
-  .action(run(login))
+program.command('login').description('Login with your waves account').action(run(login))
 
-program
-  .command('logout')
-  .description('Logout your account')
-  .action(run(logout))
+program.command('logout').description('Logout your account').action(run(logout))
 
-program
-  .command('whoami')
-  .description('Returns the logged in user')
-  .action(run(whoami))
+program.command('whoami').description('Returns the logged in user').action(run(whoami))
 
 program.option('--account [account]', 'Specify a Waves account')
 program.option('--token [token]', 'Specify a Waves token')

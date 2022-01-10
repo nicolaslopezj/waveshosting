@@ -1,8 +1,8 @@
 import call from '../helpers/call'
 import {startSpinner, stopSpinner} from '../helpers/spinner'
-import colors from 'colors'
+import chalk from 'chalk'
 
-export default async function({staticWebsiteId, version: versionNumber, env: environment}) {
+export default async function ({staticWebsiteId, version: versionNumber, env: environment}) {
   startSpinner('Starting deployment...')
 
   const mutation = `mutation deployStaticWebsiteVersion($staticWebsiteId: ID, $versionNumber: Float, $environment: ID) {
@@ -14,7 +14,7 @@ export default async function({staticWebsiteId, version: versionNumber, env: env
 
   stopSpinner()
   console.log(
-    colors.bold(
+    chalk.bold(
       `Deployment of versionNumber v${versionNumber} in ${staticWebsiteId}#${environment} started correctly`
     )
   )

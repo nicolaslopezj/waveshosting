@@ -3,9 +3,9 @@ import fs from 'fs'
 import rp from 'request-promise'
 import createVersion from './createVersion'
 import {startSpinner, stopSpinner} from '../helpers/spinner'
-import colors from 'colors'
+import chalk from 'chalk'
 
-export default async function({path, appId, description}) {
+export default async function ({path, appId, description}) {
   startSpinner('Uploading app...')
 
   const stream = fs.createReadStream(path)
@@ -33,7 +33,7 @@ export default async function({path, appId, description}) {
   const version = await createVersion({appId, archiveKey: key, description})
 
   stopSpinner()
-  console.log(colors.bold('Uploaded version ' + version))
+  console.log(chalk.bold('Uploaded version ' + version))
 
   return version
 }

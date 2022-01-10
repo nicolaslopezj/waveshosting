@@ -1,11 +1,11 @@
 import execute from '../../helpers/execute'
 import getScriptToRun from './getScriptToRun'
-import colors from 'colors'
+import chalk from 'chalk'
 import copyExtensions from './copyExtensions'
 import addVersionHelper from './addVersionHelper'
 
-export default async function({build, buildDir, staticWebsite}) {
-  console.log(colors.bold('Building static website...'))
+export default async function ({build, buildDir, staticWebsite}) {
+  console.log(chalk.bold('Building static website...'))
 
   const appDir = process.cwd()
   const script = await getScriptToRun({build, buildDir})
@@ -24,7 +24,7 @@ export default async function({build, buildDir, staticWebsite}) {
   await addVersionHelper({buildDir, staticWebsite})
   await copyExtensions({buildDir, appDir})
 
-  console.log(colors.bold('Static website built'))
+  console.log(chalk.bold('Static website built'))
 
   return `${buildDir}/build`
 }

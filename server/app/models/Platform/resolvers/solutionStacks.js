@@ -13,7 +13,7 @@ export default resolver({
     const beanstalk = await app.beanstalk()
     const result = await beanstalk.listAvailableSolutionStacks().promise()
     return result.SolutionStacks.filter(name =>
-      name.includes(`running ${platform.beanstalkSolutionStackName}`)
+      name.includes(`running ${platform.beanstalkSolutionStackName} `)
     )
   }
 })
